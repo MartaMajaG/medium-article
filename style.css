@@ -26,21 +26,23 @@ body {
   padding: 0 40px;
   text-align: center;
   color: rgb(16, 13, 17);
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .container-banner h1 {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
 }
 
 .container-banner p {
-  font-size: 20px;
-  font-style: italic; /* italic subtitle like Medium */
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 0.85);
   margin-top: 0;
-  font-weight: lighter;
-  color: rgba(23, 20, 20, 0.8); /* slightly transparent white */
 }
 
 .container-content {
@@ -54,12 +56,32 @@ body {
 }
 
 .link-kittens {
-  background-color: lavender;
+  background-image: linear-gradient(to right, rgb(220, 159, 242), rgb(228, 187, 243));
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: transparent;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .link-kittens:hover {
-  background-color: pink;
+  background-image: linear-gradient(to right, pink, pink);
+  background-size: 100% 40%;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #aaa;
+  font-size: 22px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
 }
 
 /* Media queries */
