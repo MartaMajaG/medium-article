@@ -1,0 +1,89 @@
+div {
+  display: block;
+}
+
+body {
+  color: rgb(64, 11, 222);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("https://imgs.search.brave.com/owBsCZ4FGTgOQIeyPrzRDVY7JjRbJonE90PdbjSJMb8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ1/ODMwMjk4Ni9waG90/by9hLWZhbWlseS1v/Zi1oYXBweS1raXR0/ZW5zLXNsZWVwcy10/b2dldGhlci1pbi1h/LWNvenktYmxhbmtl/dC1ma2l0dGVucy1s/b3ZpbmctZWFjaC1v/dGhlci5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9N2hyQ25O/aFkzcUsyaDBxMnBS/dm5DeDUxNmFsX0dX/Z3JjbnM2T3puYV9p/ND0");
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  padding-top: 110px;  /* for vertical centering */
+  margin-top: 0;
+}
+
+.container-banner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+  color: rgb(16, 13, 17);
+  font-size: 24px;
+}
+
+.container-banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.container-banner p {
+  font-size: 20px;
+  font-style: italic; /* italic subtitle like Medium */
+  margin-top: 0;
+  font-weight: lighter;
+  color: rgba(23, 20, 20, 0.8); /* slightly transparent white */
+}
+
+.container-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-content h2 {
+  color:rgb(12, 3, 17)
+}
+
+.link-kittens {
+  background-color: lavender;
+  transition: background-color 0.3s ease;
+}
+
+.link-kittens:hover {
+  background-color: pink;
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+  .container-content {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-content {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-content {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-content {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
